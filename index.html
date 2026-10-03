@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f6">
+  <meta name="description" content="A birthday surprise made with love for Manisha.">
+  <title>Happy Birthday, Manisha! 🎀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="progress"></div>
+  <div class="ambient" aria-hidden="true">
+    <div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div>
+  </div>
+  <div id="hearts" aria-hidden="true"></div>
+  <div id="sparkles" aria-hidden="true"></div>
+  <div id="confetti" aria-hidden="true"></div>
+
+  <button id="musicBtn" class="music-btn" aria-label="Play or pause music">♫ <span>Music</span></button>
+
+  <main>
+    <section id="landing" class="screen hero-section">
+      <div class="hero-card reveal">
+        <div class="eyebrow">A tiny surprise for someone special ✨</div>
+        <h1>Hey Manisha... <span>👀❤️</span></h1>
+        <p>Someone has something to tell you...</p>
+        <button id="openBtn" class="primary-btn">Open Your Birthday Surprise 🎁</button>
+        <div class="hint">Tap to begin • headphones recommended 🎧</div>
+      </div>
+    </section>
+
+    <section id="intro" class="section intro-section">
+      <div class="balloons" aria-hidden="true">
+        <i class="balloon b1"></i><i class="balloon b2"></i><i class="balloon b3"></i>
+        <i class="balloon b4"></i><i class="balloon b5"></i>
+      </div>
+      <div class="cake-wrap reveal">
+        <div class="cake">
+          <div class="candle"><span></span></div>
+          <div class="layer top"></div><div class="layer middle"></div><div class="layer bottom"></div>
+          <div class="plate"></div>
+        </div>
+      </div>
+      <div class="section-inner center reveal">
+        <div class="tiny-label">TODAY IS YOUR DAY 🎀</div>
+        <h2>Happy Birthday,<br><em>Manisha!</em> 🥹❤️🎂</h2>
+        <p>Okay... now we can get to the important part.</p>
+        <button class="secondary-btn scroll-btn" data-target="#message">Okay... now read this 👀</button>
+      </div>
+    </section>
+
+    <section id="message" class="section message-section">
+      <div class="section-inner narrow">
+        <div class="tiny-label reveal">A LITTLE SOMETHING I WANTED TO SAY</div>
+        <h2 class="section-title reveal">For the girl who somehow makes everything more fun.</h2>
+        <div class="letter">
+          <p class="message-line">Honestly, you’re one of the most chaotic, funny, and effortlessly entertaining people I know 😂. You somehow manage to turn almost every moment into a joke, and your laugh is probably one of the things people notice about you the most. 😭😂</p>
+          <p class="message-line">But behind all that laughter and your “I’m perfectly fine” energy, I know there’s probably a softer side of you that you don’t show everyone. You have your hard days too, but instead of making them everyone else’s problem, you still choose to smile, laugh, and make the people around you happy. And I genuinely admire that about you. 🫶🏻</p>
+          <p class="message-line">You’re beautiful, not just because of how you look, but because of the kind of person you are. You’re kind, amazing, a little crazy 😂, and honestly just someone who makes life more fun by being around.</p>
+          <p class="message-line">On your birthday, I hope you get the same happiness that you’re always trying to give to everyone else. I hope you find people who make you feel safe enough to be yourself—even on the days when you don’t feel like laughing. And I hope this year brings you countless reasons to smile for real. ❤️</p>
+          <p class="message-line">Never lose that crazy, beautiful, soft-hearted version of you. Keep laughing, keep being annoying 😂, keep shining, and most importantly, take care of yourself too.</p>
+          <p class="message-line">Happy Birthday once again, Manisha. 🥂🎀<br>You genuinely deserve a beautiful year ahead. ❤️✨</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="traits" class="section traits-section">
+      <div class="section-inner">
+        <div class="tiny-label reveal">THE EVIDENCE IS OVERWHELMING</div>
+        <h2 class="section-title reveal">THINGS THAT MAKE YOU <span>MANISHA</span></h2>
+        <div class="traits-grid">
+          <article class="trait-card reveal"><div class="trait-icon">😂</div><h3>Professional Chaos Creator</h3><p>Somehow you can turn literally anything into a joke.</p></article>
+          <article class="trait-card reveal"><div class="trait-icon">🤣</div><h3>Certified Laugh Machine</h3><p>Your laugh deserves its own warning label.</p></article>
+          <article class="trait-card reveal"><div class="trait-icon">🫶🏻</div><h3>Soft Heart, Hidden Well</h3><p>You don't always show the difficult parts, but there's a genuinely caring person underneath all that chaos.</p></article>
+          <article class="trait-card reveal"><div class="trait-icon">✨</div><h3>Beautiful Human</h3><p>Not just beautiful on the outside — beautiful in the way you make people around you feel.</p></article>
+          <article class="trait-card reveal"><div class="trait-icon">🎀</div><h3>Just... Manisha</h3><p>Impossible to properly explain. Somehow even more impossible to forget.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="game" class="section game-section">
+      <div class="section-inner center">
+        <div class="question-card reveal">
+          <div class="tiny-label">VERY SERIOUS RESEARCH</div>
+          <h2>Okay, one important question...</h2>
+          <p>How chaotic is Manisha actually?</p>
+          <div class="choices">
+            <button class="choice" data-choice="10%">10% 😂</button>
+            <button class="choice" data-choice="50%">50% 😭</button>
+            <button class="choice" data-choice="1000%">1000% 💀</button>
+          </div>
+          <div id="gameResult" class="game-result">
+            <strong>Correct answer: 1000%.</strong><br>We all knew it. 😂
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gift" class="section gift-section">
+      <div class="section-inner center">
+        <div class="tiny-label reveal">ONE MORE THING...</div>
+        <h2 class="section-title reveal">There's one more thing...</h2>
+        <p class="reveal gift-subtitle">You might want to open this. 👀</p>
+        <button id="giftBtn" class="gift-button reveal" aria-label="Open gift">
+          <span class="gift-lid"></span><span class="gift-box"></span>
+          <span class="gift-ribbon-v"></span><span class="gift-ribbon-h"></span>
+          <span class="gift-bow">🎀</span>
+        </button>
+        <div id="giftMessage" class="gift-message">
+          <p>Whatever happens this year, I hope you remember that you don't always have to be the one making everyone else smile.</p>
+          <p class="strong">You deserve someone who asks if <em>YOU</em> are okay too. ❤️</p>
+          <p>So keep being your crazy, beautiful self, Manisha.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="final" class="section final-section">
+      <div id="fireworks" aria-hidden="true"></div>
+      <div class="final-content reveal">
+        <div class="final-cake">🎂</div>
+        <div class="tiny-label">AND FINALLY...</div>
+        <h2>Happy Birthday, Manisha ❤️</h2>
+        <p>May this year be softer, happier, crazier, and full of moments worth remembering.</p>
+        <p class="signature">Stay beautiful. Stay chaotic. Stay you. 🎀✨</p>
+        <div class="made">Made with <span>❤️</span> for Manisha</div>
+        <button id="replayBtn" class="secondary-btn">Replay the surprise ↻</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="ytPlayer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
